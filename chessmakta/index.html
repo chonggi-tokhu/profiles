@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <div style="width:75vw;">
+    <div style="width:75vw;" class="enablepopover body">
     <table
         style="width:85%;border-top-left-radius:12%;border-top-right-radius:12%;border:3px solid #ffffff;box-shadow:5px 5px 1px 1px #555555,3px -1px 1px 1px #555555,-1px 5px 1px 1px #555555,-1px -1px 1px 1px #555555;background:#05048c;color:#ffffff;margin-left:2.5px;">
     
@@ -43,8 +43,8 @@
             </tr>
             <tr>
                 <td style="border:1px solid #ffffff;" colspan="3">views</td>
-                <td style="border:1px solid #ffffff;" colspan="4">17,513,370<sup
-                        style="position: relative;display: block;">Mar. tenth, '24</sup></td>
+                <td style="border:1px solid #ffffff;" colspan="4">17,513,370<sup data-cgrshorter-action="popover"
+                        style="position: relative;display: block;" data-popover-text="Mar. tenth, &apos;24">[기준]</sup></td>
             </tr>
             <tr>
                 <td style="border:1px solid #ffffff;" colspan="3">subscribers</td>
@@ -284,6 +284,6 @@
 
     <!-- and it's easy to individually load additional languages -->
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/go.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>var cgrcssjs=new ColourgreyShorterJS.ColourgreyShorterCSS(false); hljs.highlightAll(); cgrcssjs.styleAll();</script>
 </body>
 </html>
