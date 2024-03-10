@@ -21,7 +21,7 @@
 <body>
     <div style="width:60vw;" class="enablepopover body">
     <table
-        style="width:80%;border-top-left-radius:12%;border-top-right-radius:12%;border:3px solid #ffffff;box-shadow:5px 5px 1px 1px #555555,3px -1px 1px 1px #555555,-1px 5px 1px 1px #555555,-1px -1px 1px 1px #555555;background:#05048c;color:#ffffff;margin-left:2.5px;">
+        style="width:85%;border-top-left-radius:12%;border-top-right-radius:12%;border:3px solid #ffffff;box-shadow:5px 5px 1px 1px #555555,3px -1px 1px 1px #555555,-1px 5px 1px 1px #555555,-1px -1px 1px 1px #555555;background:#05048c;color:#ffffff;margin-left:2.5px;">
     
         <tbody>
             <tr>
@@ -283,6 +283,6 @@
 
     <!-- and it's easy to individually load additional languages -->
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/languages/go.min.js"></script>
-    <script>var cgrcssjs=new ColourgreyShorterJS.ColourgreyShorterCSS(false); hljs.highlightAll(); cgrcssjs.styleAll();</script>
+    <script>var cgrcssjs=new ColourgreyShorterJS.ColourgreyShorterCSS(false); hljs.highlightAll(); cgrcssjs.styleAll(); if(window.innerWidth < 700) { document.querySelector('.body').style.width='95vw'; }</script>
 </body>
 </html>
